@@ -1,0 +1,43 @@
+<html class="hehe">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="border">
+        <header>
+        </header>
+        <section id="content">
+            <div class="feed" id="feed">
+            </div>
+            <div class="totalPrice" id="totalPrice"></div>
+            <div data-paymentmodal="" id="paymentModal" class="paymentModal">
+                <h2>Enter card detials</h2>
+                <div class="modalDiv">
+                    <form id="paymentForm">
+                       
+                        <i class="fas fa-times" id="close-icon"></i>
+
+
+
+                        <input required type="text" class="inputForm" id="name" placeholder="Enter your name" >
+                        <input required type="text" class="inputForm" id="cardNumber" placeholder="Enter card number">
+                        <input required type="text" class="inputForm" id="CVV" placeholder="Enter CVV" >
+                        <button id="submitform-btn" type="submit">Pay</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>

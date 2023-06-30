@@ -1,0 +1,327 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: 'Smythe', cursive;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+header {
+  width: 600px;
+  height: 167px;
+  background-image: url(images/header.png);
+  margin: 0 auto;
+  background-size: cover;
+}
+
+section {
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 600px;
+  height: 167px;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.border {
+  border: 10px solid black;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 600px;
+  height: auto;
+}
+
+.poop {
+  display: flex;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.emoji {
+  margin-top: 40px;
+  margin-left: 46px;
+  font-size: 50px;
+}
+
+.menu-btn {
+  margin-left: auto;
+  border: 1px solid #D2D2D2;
+  border-radius: 50%;
+  background: none;
+  width: 50px;
+  height: 50px;
+  margin-right: 70px;
+  margin-top: 40px;
+  font-size: 32px; /* Increase the font size for the "+" symbol */
+  font-family: Inter;
+font-size: 32px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.line {
+  width: 85%;
+  margin: auto;
+  height: 2px;
+  background-color: #D2D2D2;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  color: black;
+  text-align: left;
+}
+
+.ingredients {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #8B8B8B;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.yourorder1 {
+  font-family: 'Smythe', cursive;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+
+.name,
+.ingredients,
+.price {
+  margin: 0;
+  font-family: 'Smythe', 'cursive';
+  letter-spacing: 0em;
+  padding: 2px;
+}
+
+.black {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+#totalPrice {
+  display: row;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Smythe', 'cursive';
+}
+
+.order-line {
+  width: 504px;
+  height: 1px;
+  background-color: #393333;
+}
+
+.confirm-btn {
+  background-color: #16DB99;
+  width: 508px;
+  height: 60px;
+  border: none;
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: white;
+  margin-bottom: 50px;
+  border-radius: 3px;
+}
+
+.yourorderlist {
+  text-align: left;
+  margin-left: 46px;
+}
+
+.order-font {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  color: black;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  /* Add margin-bottom for spacing */
+  margin-right: 46px;
+}
+
+.order-name {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  color: black;
+  text-align: left;
+}
+
+.order-price {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 17px;
+  color: black;
+  text-align: right;
+  margin-left: auto;
+  /* Align to the right */
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BBBBBB;
+}
+
+.menu-btn:hover {
+  border: 1px solid #16DB99;
+}
+
+.paymentModal {
+  width: 524px;
+  height: 542px;
+  position: absolute;
+  top: 60%;
+  right: calc(50% - 535px);
+  /* Adjust the value here */
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  background-color: white;
+  display: none;
+  border: black solid 2px;
+}
+
+#paymentForm {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 46px;
+  font-family: Verdana;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+
+.inputForm {
+  width: 475px;
+  height: 71px;
+  top: 426px;
+  left: 61px;
+  border-radius: 3px;
+  border: 1px solid #757575;
+  margin-right: auto;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 23.22px;
+  font-family: Verdana;
+font-size: 20px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+
+}
+
+#submitform-btn {
+  width: 475px;
+  height: 71px;
+  border-radius: 3px;
+  background-color: #16DB99;
+  color: white;
+  border: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  border-radius: 3px;
+}
+
+.confirmMsg p {
+  width: 504px;
+  height: 120px;
+  top: 789px;
+  left: 50px;
+  border-radius: 3px;
+  margin: 50 auto;
+  padding-top: 60px;
+  background-color: #ECFDF5;
+  font-family: Smythe;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #065F46;
+}
+.errorMsg {
+  color: red;
+  font-weight: bold;
+}
+
+.inputForm::placeholder{
+font-family: Verdana;
+font-size: 20px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+}
+
+
+.modalDiv {
+  position: relative;
+}
+
+#paymentForm {
+  position: relative;
+}
+
+#paymentForm .fas.fa-times {
+  position: absolute;
+  top: -90px;
+  right: 20px;
+  color: red;
+  cursor: pointer;
+}
