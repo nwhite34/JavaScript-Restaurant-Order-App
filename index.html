@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Smythe&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
 </head>
 
 <body>
@@ -20,7 +19,7 @@
             </div>
             <div class="totalPrice" id="totalPrice"></div>
             <div data-paymentmodal="" id="paymentModal" class="paymentModal">
-                <h2>Enter card detials</h2>
+                <h2>Enter card details</h2>
                 <div class="modalDiv">
                     <form id="paymentForm">
                        
@@ -29,15 +28,18 @@
 
 
                         <input required type="text" class="inputForm" id="name" placeholder="Enter your name" >
-                        <input required type="text" class="inputForm" id="cardNumber" placeholder="Enter card number">
-                        <input required type="text" class="inputForm" id="CVV" placeholder="Enter CVV" >
+                            
+                        
+
+
+                        <input required type="text" class="inputForm" id="cardNumber"   name="creditcard" placeholder="Enter card number">
+                        <input required type="text" class="inputForm" id="CVV" name="cvv" placeholder="Enter CVV" >
                         <button id="submitform-btn" type="submit">Pay</button>
                     </form>
                 </div>
             </div>
         </section>
     </div>
-
     <script src="index.js" type="module"></script>
 </body>
 </html>
